@@ -1,0 +1,117 @@
+/*
+GLOBAL
+*/
+.notification {
+	color: black;
+}
+
+.heading-size {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+
+.COLORED {
+	height: 400px;
+	width: 100%;
+	background-color: #3498db;
+	padding: 30px;
+	text-align: center;
+}
+
+
+/*
+HEADER
+*/
+.header {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #676868;
+
+}
+
+.header .header-menu a:hover {
+	color: #3498db;
+
+}
+
+/*
+BANNER
+*/
+.banner {
+	margin-top: -20px;
+}
+
+.banner .banner-image {
+	position: relative;
+}
+
+.banner .banner-content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+	color: #bfbfbf;
+}
+
+.block {
+	text-align: center;
+}
+
+/*
+ABOUT
+*/
+.about .about-single-element i {
+	font-size: 30px;
+	text-align: center;
+}
+
+.about .about-single-element p {
+	text-align: left;
+	margin-top: 20px;
+}
+
+/*
+FOOTER
+*/
+.footer .footer-informations {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer .footer-informations ul {
+	padding: 0;
+}
+
+.footer .footer-informations p ul li a i {
+	display: inline-block;
+}
+
+.footer p {
+	text-align: center;	
+}
